@@ -1,0 +1,124 @@
+body {
+  font-family: 'Red Rose', cursive;
+
+}
+
+.carousel .content {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #21212100, #1b1d21, #1b1d21),
+    url('../images/profile.jpeg');
+  background-size: contain;
+}
+
+
+.carousel .caption {
+  color: #d3d3d3;
+  width: 100%;
+
+  position: absolute;
+  bottom: 15vh;
+}
+
+.fullH {
+  height: 100vh;
+}
+
+.fullW {
+  width: 100vw;
+}
+
+.getFocus {
+  animation-name: example;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes example {
+  from {
+    transform: scale(0.9);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.caption button {
+  border-radius: 500px;
+  width: 70%;
+}
+
+.bottombar {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.bg-primary {
+  background-color: #0f1117;
+}
+
+.bg-secondary {
+  background-color: #191f29;
+  border-color: #191f29;
+}
+
+#car-2 .carousel-item {
+  height: auto;
+  min-height: 0px;
+}
+
+#car-2 {
+  height: 267px;
+  margin-top: 15px;
+}
+
+
+
+
+/* Carousal */
+.item1 {
+  background-image: radial-gradient(transparent, #000), url('../images/img1.jpg');
+  background-size: cover;
+}
+
+.item2 {
+  background-image: radial-gradient(transparent, #000), url('../images/img2.jpg');
+  background-size: cover;
+}
+
+.item3 {
+  background-image: radial-gradient(transparent, #000), url('../images/img3.jpg');
+  background-size: cover;
+}
+
+/* Control carousel 1 height and bottom margin */
+#car-1 {
+  height: 267px;
+}
+
+
+/* Play with the carousel border and margin */
+#xxx .carousel-item {
+  width: auto;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  height: 235px;
+  min-height: auto;
+  border-radius: 7px;
+  margin: 15px 44px 0 0;
+  /* max-height: 200px; */
+}
+
+.carousel2 {
+  height: 260px;
+}
+
+/* Cards from pages.html */
+#card-1 .col {
+  border-radius: 30px;
+}
