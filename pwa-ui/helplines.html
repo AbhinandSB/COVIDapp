@@ -13,6 +13,7 @@
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="shortcut icon" type="image/jpg" href="./images/rv logo.png"/>
 
 </head>
 <style>
@@ -134,42 +135,44 @@
    
     <!-- BottomBar -->
     <div class="bottombar  bg-secondary" style="position: sticky;">
-      <ul class="flex">
-        <li class="flex-1 mr-2 center ">
-          <a class="text-center block border border-gray-800 rounded  py-2  bg-secondary hover:bg-blue-700 text-white"
-            href="./walkthrough.html"><i class="material-icons">home</i>
-            <p>Home</p>
+      <ul class="flex" >
+        <li class="flex-1 mr-2 center " >
+          <a class="text-center block border border-gray-800 rounded  py-2  bg-secondary hover:bg-blue-700 text-white remove-border"
+            href="./home.html" style="border-color: none;">
+            <img src="images/stickybar/home.svg" style="transform:scale(0.4);">  
           </a>
+        </li>
 
+    
+        <li class="flex-1 mr-2">
+          <a class="text-center block border border-gray-800 rounded py-2  bg-secondary hover:bg-blue-700 text-white remove-border"
+            href="./helplines.html">
+          <img src="images/stickybar/phone.svg" style="transform:scale(0.4);">
+          </a>
+          
         </li>
         <li class="flex-1 mr-2">
-          <a class="text-center block border border-gray-800 rounded py-2  bg-secondary hover:bg-blue-700 text-white"
-            href="./projects.html"><i class="material-icons">search</i>
-            <p>Search</p>
+          <a class="text-center block border border-gray-800 rounded py-2  bg-secondary hover:bg-blue-700 text-white remove-border"
+            href="./myth-busters.html">
+            <img src="images/stickybar/myths.svg" style="transform:scale(0.4);color:white">
           </a>
         </li>
         <li class="flex-1 mr-2">
-          <a class="text-center block border border-gray-800 rounded py-2  bg-secondary hover:bg-blue-700 text-white"
-            href="pages.html"><i class="material-icons">panorama</i>
-            <p>Myth Busters</p>
+          <a class="text-center block border border-gray-800 rounded py-2  bg-secondary hover:bg-blue-700 text-white remove-border"
+            href="./updates.html">
+            <img src="images/stickybar/updates.svg" style="transform:scale(0.4);">
           </a>
         </li>
-        <li class="flex-1 mr-2">
-          <a class="text-center block border border-gray-800 rounded py-2  bg-secondary hover:bg-blue-700 text-white"
-            href="#"><i class="material-icons">person</i>
-            <p>Profile</p>
-          </a>
-        </li>
-        <li class="flex-1 ">
+        <!-- <li class="flex-1 ">
           <a class="text-center block border border-gray-800 rounded py-2  bg-secondary hover:bg-blue-700 text-white"
             href="#"><i class="material-icons">settings</i>
             <p>Settings</p>
           </a>
-        </li>
+        </li> -->
         <li class="flex-1 ">
-          <a class="text-center block border border-gray-800 rounded py-2  bg-secondary hover:bg-blue-700 text-white"
-            href="#"><i class="material-icons">settings</i>
-            <p>DIY Tutorials</p>
+          <a class="text-center block border border-gray-800 rounded py-2  bg-secondary hover:bg-blue-700 text-white remove-border"
+            href="./tutorials.html">
+            <img src="images/stickybar/tutorials.svg" style="transform:scale(0.4);">
           </a>
         </li>
       </ul>
@@ -177,6 +180,7 @@
 
 
   </div>
+
 
   <script>
     window.onload = function () {

@@ -123,3 +123,7 @@ body {
 #card-1 .col {
   border-radius: 30px;
 }
+
+.remove-border{
+  border-color:#121212;
+}
