@@ -1,0 +1,231 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body class="blue-grey darken-4">
+  <div id="preload" class=" preload valign-wrapper" style="height: 100vh; ">
+    <div class=" center " style="width: 100%;">
+      <div class="preloader-wrapper active">
+        <div class="spinner-layer spinner-red-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="loadedContent" class="blue-grey darken-4 fullH" style="background: #1b1d21;">
+    <div class="container">
+
+
+
+      <div class=" center  px-6">
+
+        <div class=" card rounded-lg py-16 " style="background: #0f1117;">
+          <div class="container ">
+            <!-- <div class="row">
+              <div class="col s6">
+                XXXXX
+              </div>
+              <div class="col s6">
+                YYYYYY
+              </div>
+            </div> -->
+          </div>
+          <h1 class="white-text text-4xl">PROJECTS</h1>
+          <span class="pink-text text-lighten-1">what's your favourate ? </span>
+        </div>
+
+        <div class="">
+          <ul class="collapsible rounded-lg white-text" style="border : 0px">
+            <li>
+              <a href="./walkthrough.html">
+                <div class="collapsible-header white-text " style="background:#0f1117 ;">
+                  <i class="material-icons blue-text">filter_drama</i>
+                  Walkthrough
+                  <i class="material-icons right grey-text">arrow_drop_down</i>
+
+                </div>
+                <div class="collapsible-body blue-grey darken-3"><span>Lorem ipsum dolor sit amet.</span></div>
+              </a>
+            </li>
+
+            <li>
+              <a href="./index.html">
+                <div class="collapsible-header white-text " style="background:#0f1117 ;">
+                  <i class="material-icons blue-text">filter_drama</i>
+                  Index
+                  <i class="material-icons right grey-text">arrow_drop_down</i>
+
+                </div>
+                <div class="collapsible-body blue-grey darken-3"><span>Lorem ipsum dolor sit amet.</span></div>
+              </a>
+            </li>
+
+            <li>
+              <a href="./projects.html">
+                <div class="collapsible-header white-text " style="background:#0f1117 ;">
+                  <i class="material-icons blue-text">filter_drama</i>
+                  Projects
+                  <i class="material-icons right grey-text">arrow_drop_down</i>
+
+                </div>
+                <div class="collapsible-body blue-grey darken-3"><span>Lorem ipsum dolor sit amet.</span></div>
+              </a>
+            </li>
+
+            <li>
+              <a href="./pages/splash.html">
+                <div class="collapsible-header white-text " style="background:#0f1117 ;">
+                  <i class="material-icons blue-text">filter_drama</i>
+                  Splash
+                  <i class="material-icons right grey-text">arrow_drop_down</i>
+
+                </div>
+                <div class="collapsible-body blue-grey darken-3"><span>Lorem ipsum dolor sit amet.</span></div>
+              </a>
+            </li>
+
+            <li>
+              <a href="./pages.html">
+                <div class="collapsible-header white-text " style="background:#0f1117 ;">
+                  <i class="material-icons blue-text">filter_drama</i>
+                  Pages
+                  <i class="material-icons right grey-text">arrow_drop_down</i>
+
+                </div>
+                <div class="collapsible-body blue-grey darken-3"><span>Lorem ipsum dolor sit amet.</span></div>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal bottom-sheet">
+      <div class="modal-content bg-primary white-text">
+        <div class="container  ">
+          <div class="row  my-0 py-2">
+            <span class="text-2xl ">
+              Settings
+            </span>
+          </div>
+          <div class="divider white darken-3"></div>
+          <div class="row py-4 m-0 valign-wrapper ">
+            <div class="col s2 p-0">
+              <i class=" material-icons circle p-1 yellow blue-text left">search</i>
+
+            </div>
+            <span class="col s7">
+              Dark mode
+            </span>
+            <div class="switch col s3">
+              <label>
+
+                <input type="checkbox">
+                <span class="lever"></span>
+
+              </label>
+
+            </div>
+
+
+          </div>
+          <div class="divider grey darken-3"></div>
+        </div>
+      </div>
+      <!-- <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      </div> -->
+    </div>
+
+    <div class="bottombar bg-secondary">
+      <ul class="flex">
+        <li class="flex-1 mr-2 center ">
+          <a class="text-center block border border-gray-800 rounded  py-2 bg-gray-800 hover:bg-blue-700 text-white"
+            href="./walkthrough.html"><i class="material-icons">home</i>
+            <p>Home</p>
+          </a>
+
+        </li>
+        <li class="flex-1 mr-2">
+          <a class="text-center block border border-gray-800 rounded py-2 bg-secondary hover:bg-blue-700 text-white"
+            href="./projects.html"><i class="material-icons">search</i>
+            <p>Search</p>
+          </a>
+        </li>
+        <li class="flex-1 mr-2">
+          <a class="text-center block border border-gray-800 rounded py-2 bg-secondary hover:bg-blue-700 text-white"
+            href="#"><i class="material-icons">panorama</i>
+            <p>Pages</p>
+          </a>
+        </li>
+        <li class="flex-1 mr-2">
+          <a class="text-center block border border-gray-800 rounded py-2 bg-secondary hover:bg-blue-700 text-white"
+            href="#"><i class="material-icons">person</i>
+            <p>Profile</p>
+          </a>
+        </li>
+        <li class="flex-1 ">
+          <a class="text-center block border border-gray-800 rounded py-2 bg-secondary hover:bg-blue-700 text-white"
+            href="#"><i class="material-icons">settings</i>
+            <p>Settings</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <script>
+    window.onload = function () {
+      document.getElementById("preload").style.display = "none";
+      // document.getElementById("loadedContent").style.display = "block";
+    }
+  </script>
+  <script>
+    var elems = document.querySelectorAll('.carousel');
+    var opt = {
+
+      numVisible: 1,
+      fullWidth: true
+    }
+    var instances = M.Carousel.init(elems, opt);
+
+    var collaps = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(collaps, {});
+
+
+    var modal = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(modal, {});
+  </script>
+
+
+</body>
+
+</html>
