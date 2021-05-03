@@ -1,0 +1,142 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | RVCE COVID App</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<style>
+    .border-custom{
+        border-radius:0px;
+        background-color:#667EEA;
+    }
+</style>
+
+<body class="bg-secondary darken-4">
+  <div id="preload" class=" preload valign-wrapper" style="height: 100vh; ">
+    <div class=" center " style="width: 100%;">
+      <div class="preloader-wrapper active">
+        <div class="spinner-layer spinner-red-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="text-gray-400 bg-gray-900 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+
+        <div class="flex flex-col text-center w-full mb-20" >
+            <h2 class="text-xs text-indigo-400 tracking-widest font-medium title-font mb-1" style="font-size:xx-large;">RVCE COVID App</h2>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white"></h1>
+            <!-- <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> -->
+          </div>
+
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
+        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+      </div>
+      <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Before they sold out
+          <br class="hidden lg:inline-block">readymade gluten
+        </h1>
+        <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+        <div class="flex justify-center">
+          <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
+          <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Button</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- BottomBar -->
+    <div class="bottombar  bg-secondary" style="position: sticky;">
+      <ul class="flex">
+        <li class="flex-1 mr-2 center ">
+          <a class="text-center block border border-gray-800 rounded  py-2  bg-secondary hover:bg-blue-700 text-white"
+            href="./walkthrough.html"><i class="material-icons">home</i>
+            <p>Home</p>
+          </a>
+
+        </li>
+        <li class="flex-1 mr-2">
+          <a class="text-center block border border-gray-800 rounded py-2  bg-secondary hover:bg-blue-700 text-white"
+            href="./projects.html"><i class="material-icons">search</i>
+            <p>Search</p>
+          </a>
+        </li>
+        <li class="flex-1 mr-2">
+          <a class="text-center block border border-gray-800 rounded py-2  bg-secondary hover:bg-blue-700 text-white"
+            href="pages.html"><i class="material-icons">panorama</i>
+            <p>Myth Busters</p>
+          </a>
+        </li>
+        <li class="flex-1 mr-2">
+          <a class="text-center block border border-gray-800 rounded py-2  bg-secondary hover:bg-blue-700 text-white"
+            href="#"><i class="material-icons">person</i>
+            <p>Profile</p>
+          </a>
+        </li>
+        <li class="flex-1 ">
+          <a class="text-center block border border-gray-800 rounded py-2  bg-secondary hover:bg-blue-700 text-white"
+            href="#"><i class="material-icons">settings</i>
+            <p>Settings</p>
+          </a>
+        </li>
+        <li class="flex-1 ">
+          <a class="text-center block border border-gray-800 rounded py-2  bg-secondary hover:bg-blue-700 text-white"
+            href="#"><i class="material-icons">settings</i>
+            <p>DIY Tutorials</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+  </div>
+
+  <script>
+    window.onload = function () {
+      document.getElementById("preload").style.display = "none";
+      // document.getElementById("loadedContent").style.display = "block";
+    }
+  </script>
+  <script>
+    var elems = document.querySelectorAll('.carousel');
+    var opt = {
+      duration: 75, // ms
+      dist: 30, // zoom scale TODO: make this more intuitive as an option
+      shift: 0, // spacing for center image
+      padding: 30, // Padding between non center items
+      numVisible: 5, // Number of visible items in carousel
+      fullWidth: false, // Change to full width styles
+      indicators: false, // Toggle indicators
+      noWrap: false, // Don't wrap around and cycle through items.
+      onCycleTo: null
+    }
+    var instances = M.Carousel.init(elems, opt);
+  </script>
+
+
+</body>
+
+</html>
